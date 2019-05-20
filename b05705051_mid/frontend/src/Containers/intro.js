@@ -1,7 +1,6 @@
 import React from 'react';
 import bgImage2 from "../image/bg2.jpg";
 import money from "../image/fadachai.png";
-import { BrowserRouter } from 'react-router-dom';
 import { NavLink, Switch, Route, Redirect} from 'react-router-dom';
 export default class Block1 extends React.Component {
     constructor(props) {

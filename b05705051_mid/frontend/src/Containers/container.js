@@ -10,7 +10,6 @@ import TvPage1 from '../Containers/tvPage1';
 import MoviePage1 from '../Containers/moviePage1';
 import Menu from "../Components/menu.js"
 import { BrowserRouter } from 'react-router-dom'
-import { NavLink, Switch, Route } from 'react-router-dom'
 
 export default class Container extends React.Component {
     constructor(props) {
