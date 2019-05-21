@@ -37,7 +37,7 @@ export default class Container extends React.Component {
 	componentDidMount() {
         this.getUserFromDb();
         if (!this.state.intervalIsSet) {
-          let interval = setInterval(this.getUserFromDb, 1000);
+          let interval = setInterval(this.getUserFromDb, 500);
           this.setState({ intervalIsSet: interval });
         }
       }
@@ -91,6 +91,7 @@ export default class Container extends React.Component {
 		var sectionStyle = {
 			width: "100%",
 			height: "100%",
+			repeat: "no-repeat",
 			backgroundImage: `url(${bgImage})` 
 		};
 	  

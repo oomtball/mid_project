@@ -14,6 +14,7 @@ github連結：https://github.com/oomtball/mid_project.git
     再來按GoLottery，可以看到四個獎品，選一個你喜歡的，雖然我沒有獎品送
 6. 每個獎品頁面有很多籤(牌)，翻開牌會消耗一次次數，中獎會有獎品圖片，沒中獎就是白色正方形
 7. 使用完3次就沒辦法繼續抽，需要換帳號才能繼續抽
+注意：有時候傳資料有延遲，抽籤等time下降再抽下一籤，沒寫好抱歉
 
 使用與參考之框架/模組/原始碼：
 https://medium.com/javascript-in-plain-english/full-stack-mongodb-react-node-js-express-js-in-one-simple-app-6cc8ed6de274
